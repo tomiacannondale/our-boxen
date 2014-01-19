@@ -55,3 +55,13 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "dropbox",       "1.2.0"
+github "chrome",        "1.1.2"
+github "firefox",       "1.1.7"
+github "libreoffice",   "4.1.3"
+github "mactex",        "0.1.0", :repo => "Omegaice/puppet-mactex"
+github "vlc",           "1.0.5"
+github "imagemagick",   "1.2.1"
+github "zsh",           "1.0.0"
+github "osx",           "2.2.2"
