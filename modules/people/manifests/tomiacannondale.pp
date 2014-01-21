@@ -7,6 +7,11 @@ class people::tomiacannondale {
   include imagemagick
   include zsh
 
+  include libreoffice
+  class { 'libreoffice::languagepack':
+    locale => 'ja'
+  }
+
   include osx::dock::autohide
 
   # install ricty
