@@ -133,4 +133,9 @@ class people::tomiacannondale {
   class { 'nodejs::global':
     version => 'v0.10'
   }
+
+  ruby::plugin { 'rbenv-gemset':
+    ensure => 'v0.5.3',
+    source => 'jf/rbenv-gemset'
+  }
 }
