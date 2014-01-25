@@ -1,7 +1,6 @@
 class people::tomiacannondale {
   include dropbox
   include chrome
-  include firefox
   include mactex::full
   include vlc
   include imagemagick
@@ -11,6 +10,11 @@ class people::tomiacannondale {
   class { 'libreoffice::languagepack':
     locale => 'ja'
   }
+
+  class { 'firefox':
+    locale => 'ja-JP-mac'
+  }
+  include firefox
 
   include osx::dock::autohide
 
